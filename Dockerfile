@@ -1,7 +1,5 @@
 FROM bigtruedata/sbt as builder
 
-MAINTAINER Clement Laforet <sheepkiller@cultdeadsheep.org>
-
 ENV ZK_HOSTS=localhost:2181 \
      KM_VERSION=2.0.0.2
 
